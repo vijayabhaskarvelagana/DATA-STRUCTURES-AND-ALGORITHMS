@@ -16,8 +16,13 @@ int main(){
     int *c = &a; // c is a pointer storing the address of variable a
     cout << "value of c is " << c << endl;
     cout << "value stored in the address stored by c is " << *c << endl;
-    return 0;
-
+    
     // & reference operator is used to get the address of a variable
     // * de-reference operator is used to find the value stored at an address
+
+    int e = 100;
+    int &d = e;
+    cout << "value of d is " << d << endl;
+
+    return 0;
 }
