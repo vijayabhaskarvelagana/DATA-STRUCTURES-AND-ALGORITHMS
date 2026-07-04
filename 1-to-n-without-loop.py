@@ -7,3 +7,6 @@ class Solution:
     	print(n, end=" ")
     	# Time complexity = O(n)
     	# Space complexity = O(n) = Recursion stack
+    	
+solution_obj = Solution()
+solution_obj.printTillN(10)
