@@ -51,6 +51,7 @@ def main():
     right_rotate(arr, len(arr)-k)
     print("===================")
     # now, left rotate on the original arry
+    # NEW: left rotation can also be performed by rotating the entire list first, then rotating LAST k elements and then rotating the remaining first n-k elements.
     left_rotate(arr, k)
 
 if __name__ == '__main__':
